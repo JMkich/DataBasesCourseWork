@@ -1,0 +1,34 @@
+G:\VS Projects\CourseWork\CourseWork\bin\Debug\CourseWork.exe.config
+G:\VS Projects\CourseWork\CourseWork\bin\Debug\CourseWork.exe
+G:\VS Projects\CourseWork\CourseWork\bin\Debug\CourseWork.pdb
+G:\VS Projects\CourseWork\CourseWork\obj\Debug\CourseWork.csproj.AssemblyReference.cache
+G:\VS Projects\CourseWork\CourseWork\obj\Debug\CourseWork.Properties.Resources.resources
+G:\VS Projects\CourseWork\CourseWork\obj\Debug\CourseWork.csproj.GenerateResource.cache
+G:\VS Projects\CourseWork\CourseWork\obj\Debug\CourseWork.csproj.CoreCompileInputs.cache
+G:\VS Projects\CourseWork\CourseWork\obj\Debug\CourseWork.exe
+G:\VS Projects\CourseWork\CourseWork\obj\Debug\CourseWork.pdb
+G:\VS Projects\CourseWork\CourseWork\obj\Debug\CourseWork.ClientForm.resources
+G:\VS Projects\CourseWork\CourseWork\obj\Debug\CourseWork.DealerForm.resources
+G:\VS Projects\CourseWork\CourseWork\obj\Debug\CourseWork.DealForm.resources
+G:\VS Projects\CourseWork\CourseWork\obj\Debug\CourseWork.MainForm.resources
+G:\VS Projects\CourseWork\CourseWork\obj\Debug\CourseWork.DBForm.resources
+G:\VS Projects\CourseWork\CourseWork\obj\Debug\CourseWork.ReportsForm.resources
+G:\VS Projects\CourseWork\CourseWork\bin\Debug\Database1.mdf
+G:\VS Projects\CourseWork\CourseWork\bin\Debug\Database1_log.ldf
+C:\CourseWork\CourseWork\bin\Debug\Database1.mdf
+C:\CourseWork\CourseWork\bin\Debug\Database1_log.ldf
+C:\CourseWork\CourseWork\bin\Debug\CourseWork.exe.config
+C:\CourseWork\CourseWork\bin\Debug\CourseWork.exe
+C:\CourseWork\CourseWork\bin\Debug\CourseWork.pdb
+C:\CourseWork\CourseWork\obj\Debug\CourseWork.csproj.AssemblyReference.cache
+C:\CourseWork\CourseWork\obj\Debug\CourseWork.ClientForm.resources
+C:\CourseWork\CourseWork\obj\Debug\CourseWork.DBForm.resources
+C:\CourseWork\CourseWork\obj\Debug\CourseWork.DealerForm.resources
+C:\CourseWork\CourseWork\obj\Debug\CourseWork.DealForm.resources
+C:\CourseWork\CourseWork\obj\Debug\CourseWork.MainForm.resources
+C:\CourseWork\CourseWork\obj\Debug\CourseWork.Properties.Resources.resources
+C:\CourseWork\CourseWork\obj\Debug\CourseWork.ReportsForm.resources
+C:\CourseWork\CourseWork\obj\Debug\CourseWork.csproj.GenerateResource.cache
+C:\CourseWork\CourseWork\obj\Debug\CourseWork.csproj.CoreCompileInputs.cache
+C:\CourseWork\CourseWork\obj\Debug\CourseWork.exe
+C:\CourseWork\CourseWork\obj\Debug\CourseWork.pdb
