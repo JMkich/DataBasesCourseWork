@@ -30,7 +30,6 @@ namespace CourseWork
             if (textBox2.Text==""|| textBox3.Text == ""|| textBox4.Text == ""|| textBox5.Text == ""|| textBox6.Text == ""|| maskedTextBox1.Text == "")
             {
                 label2.Visible = true;
-                //label3.Visible = false;
             }
             else
             {
@@ -49,15 +48,12 @@ namespace CourseWork
                 textBox5.Text = "";
                 textBox6.Text = "";
                 maskedTextBox1.Text = "";
-                //label3.Visible = true;
-
             }
 
         }
 
         private async void ClientForm_Load(object sender, EventArgs e)
         {
-            //label2.Visible = false;
             string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\GitHubRep\DataBasesCourseWork\CourseWork\CourseWork\Database1.mdf;Integrated Security=True;Current Language=Russian";
             sqlConnection = new SqlConnection(connectionString);
             await sqlConnection.OpenAsync();

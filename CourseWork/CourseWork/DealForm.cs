@@ -42,50 +42,34 @@ namespace CourseWork
                 string[] massDealer = dealerStr.Split(' ');
                 
                 clientInsert.Parameters.AddWithValue("IdDealer", Convert.ToInt32(massDealer[2]));
-                ////clientInsert.Parameters.AddWithValue("IdDealer", Convert.ToInt32(idDealerNumber.Substring(13, 1)));
-                //clientInsert.Parameters.Add("@IdDealer", SqlDbType.Int).SourceColumn = "IdDealer";
 
                 string clientStr = listBox2.SelectedItem.ToString();
                 string[] massClient = clientStr.Split(' ');
                 
                 clientInsert.Parameters.AddWithValue("IdClient", Convert.ToInt32(massClient[2]));
-                ////clientInsert.Parameters.AddWithValue("IdClient", Convert.ToInt32(idClientNumber.Substring(14,1)));
-                //clientInsert.Parameters.Add("@IdClient", SqlDbType.Int).SourceColumn = "IdClient";
 
                 clientInsert.Parameters.AddWithValue("DateOfConclusion", maskedTextBox1.Text).SourceColumn = "DateOfConclusion";
-                //clientInsert.Parameters.Add("@DateOfConclusion", SqlDbType.DateTime).SourceColumn = "DateOfConclusion";
 
                 clientInsert.Parameters.AddWithValue("Brand", textBox5.Text).SourceColumn = "Brand";
-                //clientInsert.Parameters.Add("@Brand", SqlDbType.NVarChar).SourceColumn = "Brand";
 
                 clientInsert.Parameters.AddWithValue("PhotoOfAuto", checkBox1.Checked).SourceColumn = "PhotoOfAuto";
-                //clientInsert.Parameters.Add("@PhotoOfAuto",SqlDbType.Bit).SourceColumn = "PhotoOfAuto";
 
                 clientInsert.Parameters.AddWithValue("ReleaseDate", maskedTextBox2.Text).SourceColumn = "ReleaseDate";
-                //clientInsert.Parameters.Add("@ReleaseDate",SqlDbType.DateTime).SourceColumn = "ReleaseDate";
 
                 clientInsert.Parameters.AddWithValue("Mileage", textBox4.Text).SourceColumn = "Mileage";
-                //clientInsert.Parameters.Add("@Mileage", SqlDbType.NVarChar).SourceColumn = "Mileage";
 
                 clientInsert.Parameters.AddWithValue("SaleDate", maskedTextBox3.Text).SourceColumn = "SaleDate";
-                //clientInsert.Parameters.Add("@SaleDate",SqlDbType.DateTime).SourceColumn = "SaleDate";
 
                 clientInsert.Parameters.AddWithValue("Price", textBox3.Text).SourceColumn = "Price";
-                //clientInsert.Parameters.Add("@Price", SqlDbType.NVarChar).SourceColumn = "Price";
 
                 clientInsert.Parameters.AddWithValue("CommissionAmount", textBox8.Text).SourceColumn = "CommissionAmount";
-                //clientInsert.Parameters.Add("@CommissionAmount", SqlDbType.NVarChar).SourceColumn = "CommissionAmount";
 
                 clientInsert.Parameters.AddWithValue("Note", textBox9.Text).SourceColumn = "Note";
-                //clientInsert.Parameters.Add("@Note", SqlDbType.NVarChar).SourceColumn = "Note";
                 clientInsert.ExecuteNonQuery();
                 SqlDataAdapter adapter = new SqlDataAdapter();
                 adapter.InsertCommand = clientInsert;
                 adapter.Update(ds,"Contract");
 
-                //Database1DataSet.ContractTableAdapter contractTableAdapter = new Database1DataSet.ContractTableAdapter();
-                //ds.contractTableAdapter.Fill(this.database1DataSet1.Contract);
-                //contractTableAdapter.Update(database1DataSet1);
                 sqlConnection.Close();
                 maskedTextBox1.Text = "";
                 maskedTextBox2.Text = "";
