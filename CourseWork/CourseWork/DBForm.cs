@@ -36,7 +36,7 @@ namespace CourseWork
             //this.contractTableAdapter.Fill(this.database1DataSet.Contract);
             //this.dealerTableAdapter.Fill(this.database1DataSet.Dealer);
             //this.clientTableAdapter.Fill(this.database1DataSet.Client);
-            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\CourseWork\CourseWork\Database1.mdf;Integrated Security=True;Current Language=Russian";
+            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\GitHubRep\DataBasesCourseWork\CourseWork\CourseWork\Database1.mdf;Integrated Security=True;Current Language=Russian";
             adapterClient = new SqlDataAdapter("SELECT * FROM Client", new SqlConnection(connectionString));
             adapterDealer = new SqlDataAdapter("SELECT * FROM Dealer", new SqlConnection(connectionString));
             adapterContract = new SqlDataAdapter("SELECT * FROM Contract", new SqlConnection(connectionString));

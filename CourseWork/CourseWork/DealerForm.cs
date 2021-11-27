@@ -53,7 +53,7 @@ namespace CourseWork
 
         private async void DealerForm_Load(object sender, EventArgs e)
         {
-            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\CourseWork\CourseWork\Database1.mdf;Integrated Security=True;Current Language=Russian";
+            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\GitHubRep\DataBasesCourseWork\CourseWork\CourseWork\Database1.mdf;Integrated Security=True;Current Language=Russian";
             sqlConnection = new SqlConnection(connectionString);
             await sqlConnection.OpenAsync();
         }
